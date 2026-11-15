@@ -1,0 +1,778 @@
+[
+  {
+    "fixture": "built-A0-TXA10A",
+    "seed": "TXA10A",
+    "ascension": 0,
+    "initialHp": 72,
+    "maxHp": 72,
+    "nativeExtra": [],
+    "won": true,
+    "hp": 72,
+    "plays": 10,
+    "rounds": [
+      {
+        "turn": 1,
+        "hp": 72,
+        "block": 6,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 14
+          },
+          {
+            "hp": 40
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "hp": 72,
+        "block": 11,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 24
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "hp": 72,
+        "block": 6,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 1
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "hp": 72,
+        "block": 0,
+        "energy": 2,
+        "enemies": []
+      }
+    ]
+  },
+  {
+    "fixture": "built-A0-TXA10B",
+    "seed": "TXA10B",
+    "ascension": 0,
+    "initialHp": 72,
+    "maxHp": 72,
+    "nativeExtra": [],
+    "won": true,
+    "hp": 62,
+    "plays": 12,
+    "rounds": [
+      {
+        "turn": 1,
+        "hp": 72,
+        "block": 0,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 32
+          },
+          {
+            "hp": 45
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "hp": 72,
+        "block": 0,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 14
+          },
+          {
+            "hp": 33
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "hp": 62,
+        "block": 10,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 33
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "hp": 62,
+        "block": 11,
+        "energy": 0,
+        "enemies": []
+      }
+    ]
+  },
+  {
+    "fixture": "built-A0-TXA10C",
+    "seed": "TXA10C",
+    "ascension": 0,
+    "initialHp": 72,
+    "maxHp": 72,
+    "nativeExtra": [],
+    "won": true,
+    "hp": 72,
+    "plays": 13,
+    "rounds": [
+      {
+        "turn": 1,
+        "hp": 72,
+        "block": 10,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 3
+          },
+          {
+            "hp": 36
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "hp": 72,
+        "block": 5,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 20
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "hp": 72,
+        "block": 6,
+        "energy": 1,
+        "enemies": []
+      }
+    ]
+  },
+  {
+    "fixture": "built-A10-TXA10A",
+    "seed": "TXA10A",
+    "ascension": 10,
+    "initialHp": 72,
+    "maxHp": 72,
+    "nativeExtra": [
+      "CARD.ASCENDERS_BANE"
+    ],
+    "won": true,
+    "hp": 63,
+    "plays": 11,
+    "rounds": [
+      {
+        "turn": 1,
+        "hp": 72,
+        "block": 5,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 28
+          },
+          {
+            "hp": 53
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "hp": 72,
+        "block": 6,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 33
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "hp": 72,
+        "block": 0,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 11
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "hp": 63,
+        "block": 5,
+        "energy": 2,
+        "enemies": []
+      }
+    ]
+  },
+  {
+    "fixture": "built-A10-TXA10B",
+    "seed": "TXA10B",
+    "ascension": 10,
+    "initialHp": 72,
+    "maxHp": 72,
+    "nativeExtra": [
+      "CARD.ASCENDERS_BANE"
+    ],
+    "won": true,
+    "hp": 67,
+    "plays": 13,
+    "rounds": [
+      {
+        "turn": 1,
+        "hp": 72,
+        "block": 0,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 26
+          },
+          {
+            "hp": 46
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "hp": 72,
+        "block": 6,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 2
+          },
+          {
+            "hp": 34
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "hp": 67,
+        "block": 16,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 15
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "hp": 67,
+        "block": 0,
+        "energy": 0,
+        "enemies": []
+      }
+    ]
+  },
+  {
+    "fixture": "built-A10-TXA10C",
+    "seed": "TXA10C",
+    "ascension": 10,
+    "initialHp": 72,
+    "maxHp": 72,
+    "nativeExtra": [
+      "CARD.ASCENDERS_BANE"
+    ],
+    "won": true,
+    "hp": 63,
+    "plays": 13,
+    "rounds": [
+      {
+        "turn": 1,
+        "hp": 72,
+        "block": 0,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 25
+          },
+          {
+            "hp": 45
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "hp": 72,
+        "block": 10,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 22
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "hp": 72,
+        "block": 0,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 10
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "hp": 63,
+        "block": 5,
+        "energy": 2,
+        "enemies": []
+      }
+    ]
+  },
+  {
+    "fixture": "elite-A10-TXA10A",
+    "seed": "TXA10A",
+    "ascension": 10,
+    "initialHp": 72,
+    "maxHp": 72,
+    "nativeExtra": [
+      "CARD.ASCENDERS_BANE"
+    ],
+    "won": true,
+    "hp": 47,
+    "plays": 14,
+    "rounds": [
+      {
+        "turn": 1,
+        "hp": 72,
+        "block": 5,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 118
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "hp": 72,
+        "block": 6,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 79
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "hp": 72,
+        "block": 0,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 57
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "hp": 47,
+        "block": 10,
+        "energy": 1,
+        "enemies": []
+      }
+    ]
+  },
+  {
+    "fixture": "elite-A10-TXA10B",
+    "seed": "TXA10B",
+    "ascension": 10,
+    "initialHp": 72,
+    "maxHp": 72,
+    "nativeExtra": [
+      "CARD.ASCENDERS_BANE"
+    ],
+    "won": true,
+    "hp": 38,
+    "plays": 21,
+    "rounds": [
+      {
+        "turn": 1,
+        "hp": 72,
+        "block": 0,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 117
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "hp": 72,
+        "block": 6,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 92
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "hp": 72,
+        "block": 16,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 64
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "hp": 70,
+        "block": 0,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 48
+          }
+        ]
+      },
+      {
+        "turn": 5,
+        "hp": 45,
+        "block": 11,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 28
+          }
+        ]
+      },
+      {
+        "turn": 6,
+        "hp": 38,
+        "block": 6,
+        "energy": 0,
+        "enemies": []
+      }
+    ]
+  },
+  {
+    "fixture": "elite-A10-TXA10C",
+    "seed": "TXA10C",
+    "ascension": 10,
+    "initialHp": 72,
+    "maxHp": 72,
+    "nativeExtra": [
+      "CARD.ASCENDERS_BANE"
+    ],
+    "won": true,
+    "hp": 40,
+    "plays": 18,
+    "rounds": [
+      {
+        "turn": 1,
+        "hp": 72,
+        "block": 0,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 118
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "hp": 72,
+        "block": 10,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 78
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "hp": 72,
+        "block": 0,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 65
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "hp": 47,
+        "block": 11,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 22
+          }
+        ]
+      },
+      {
+        "turn": 5,
+        "hp": 40,
+        "block": 0,
+        "energy": 3,
+        "enemies": []
+      }
+    ]
+  },
+  {
+    "fixture": "starter-A10-TXA10A",
+    "seed": "TXA10A",
+    "ascension": 10,
+    "initialHp": 72,
+    "maxHp": 72,
+    "nativeExtra": [
+      "CARD.ASCENDERS_BANE"
+    ],
+    "won": true,
+    "hp": 50,
+    "plays": 14,
+    "rounds": [
+      {
+        "turn": 1,
+        "hp": 72,
+        "block": 9,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 13
+          },
+          {
+            "hp": 35
+          },
+          {
+            "hp": 6
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "hp": 72,
+        "block": 0,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 1
+          },
+          {
+            "hp": 35
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "hp": 59,
+        "block": 5,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 29
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "hp": 59,
+        "block": 0,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 11
+          }
+        ]
+      },
+      {
+        "turn": 5,
+        "hp": 50,
+        "block": 0,
+        "energy": 1,
+        "enemies": []
+      }
+    ]
+  },
+  {
+    "fixture": "starter-A10-TXA10B",
+    "seed": "TXA10B",
+    "ascension": 10,
+    "initialHp": 72,
+    "maxHp": 72,
+    "nativeExtra": [
+      "CARD.ASCENDERS_BANE"
+    ],
+    "won": true,
+    "hp": 72,
+    "plays": 21,
+    "rounds": [
+      {
+        "turn": 1,
+        "hp": 72,
+        "block": 4,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 15
+          },
+          {
+            "hp": 36
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "hp": 72,
+        "block": 11,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 36
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "hp": 72,
+        "block": 5,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 24
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "hp": 72,
+        "block": 10,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 19
+          }
+        ]
+      },
+      {
+        "turn": 5,
+        "hp": 72,
+        "block": 15,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 7
+          }
+        ]
+      },
+      {
+        "turn": 6,
+        "hp": 72,
+        "block": 10,
+        "energy": 1,
+        "enemies": [
+          {
+            "hp": 7
+          }
+        ]
+      },
+      {
+        "turn": 7,
+        "hp": 72,
+        "block": 0,
+        "energy": 1,
+        "enemies": []
+      }
+    ]
+  },
+  {
+    "fixture": "starter-A10-TXA10C",
+    "seed": "TXA10C",
+    "ascension": 10,
+    "initialHp": 72,
+    "maxHp": 72,
+    "nativeExtra": [
+      "CARD.ASCENDERS_BANE"
+    ],
+    "won": true,
+    "hp": 44,
+    "plays": 13,
+    "rounds": [
+      {
+        "turn": 1,
+        "hp": 72,
+        "block": 10,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 13
+          },
+          {
+            "hp": 28
+          },
+          {
+            "hp": 2
+          }
+        ]
+      },
+      {
+        "turn": 2,
+        "hp": 72,
+        "block": 0,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 1
+          },
+          {
+            "hp": 28
+          }
+        ]
+      },
+      {
+        "turn": 3,
+        "hp": 56,
+        "block": 0,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 16
+          }
+        ]
+      },
+      {
+        "turn": 4,
+        "hp": 44,
+        "block": 4,
+        "energy": 0,
+        "enemies": [
+          {
+            "hp": 4
+          }
+        ]
+      },
+      {
+        "turn": 5,
+        "hp": 44,
+        "block": 0,
+        "energy": 2,
+        "enemies": []
+      }
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "TIAN_XIANG_RELIC_WEATHER_COMPASS.title": "候风仪",
+  "TIAN_XIANG_RELIC_WEATHER_COMPASS.description": "每次观天时，抽1张牌，获得1点能量。",
+  "TIAN_XIANG_RELIC_WEATHER_COMPASS.flavor": "不改变天空，也能找到方向。",
+  "TIAN_XIANG_RELIC_CELESTIAL_COMPASS.title": "浑天候风仪",
+  "TIAN_XIANG_RELIC_CELESTIAL_COMPASS.description": "每次观天时，抽1张牌，获得1点能量。每次观天时，获得3点格挡。",
+  "TIAN_XIANG_RELIC_CELESTIAL_COMPASS.flavor": "风从何来，天从何始。",
+  "TIAN_XIANG_RELIC_JADE_DEW_CUP.title": "Jade Dew Cup",
+  "TIAN_XIANG_RELIC_JADE_DEW_CUP.description": "The first time you observe Yin each turn, gain 3 extra Block.",
+  "TIAN_XIANG_RELIC_JADE_DEW_CUP.flavor": "Cold beads at the rim.",
+  "TIAN_XIANG_RELIC_SUN_NEEDLE.title": "Gnomon",
+  "TIAN_XIANG_RELIC_SUN_NEEDLE.description": "The first time you observe Yang each turn, deal 4 extra damage to that enemy.",
+  "TIAN_XIANG_RELIC_SUN_NEEDLE.flavor": "Measure the sun by its shadow.",
+  "TIAN_XIANG_RELIC_THUNDER_BELL.title": "Thunder Bell",
+  "TIAN_XIANG_RELIC_THUNDER_BELL.description": "Every third observation in a combat deals 5 damage to all enemies.",
+  "TIAN_XIANG_RELIC_THUNDER_BELL.flavor": "On the third peal, the valley answers."
+}

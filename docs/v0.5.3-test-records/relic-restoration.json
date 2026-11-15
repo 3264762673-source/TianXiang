@@ -1,0 +1,1149 @@
+{
+  "checks": {
+    "balance": "PASS balance: 382 assertions",
+    "numbers": "PASS numbers: 210 assertions"
+  },
+  "fourCardStressTest": [
+    {
+      "scenario": "four-card dust-yin wind-yang paid loop",
+      "upgraded": false,
+      "plays": 80,
+      "stopped": "80-play test ceiling",
+      "energy": 3,
+      "damage": 260,
+      "trace": [
+        {
+          "play": 1,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 0
+        },
+        {
+          "play": 2,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 1
+        },
+        {
+          "play": 3,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 1
+        },
+        {
+          "play": 4,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 2
+        },
+        {
+          "play": 5,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 2
+        },
+        {
+          "play": 6,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 3
+        },
+        {
+          "play": 7,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 3
+        },
+        {
+          "play": 8,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 4
+        },
+        {
+          "play": 9,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 4
+        },
+        {
+          "play": 10,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 5
+        },
+        {
+          "play": 11,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 5
+        },
+        {
+          "play": 12,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 6
+        },
+        {
+          "play": 13,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 6
+        },
+        {
+          "play": 14,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 7
+        },
+        {
+          "play": 15,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 7
+        },
+        {
+          "play": 16,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 8
+        },
+        {
+          "play": 17,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 8
+        },
+        {
+          "play": 18,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 9
+        },
+        {
+          "play": 19,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 9
+        },
+        {
+          "play": 20,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 10
+        },
+        {
+          "play": 21,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 10
+        },
+        {
+          "play": 22,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 11
+        },
+        {
+          "play": 23,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 11
+        },
+        {
+          "play": 24,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 12
+        },
+        {
+          "play": 25,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 12
+        },
+        {
+          "play": 26,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 13
+        },
+        {
+          "play": 27,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 13
+        },
+        {
+          "play": 28,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 14
+        },
+        {
+          "play": 29,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 14
+        },
+        {
+          "play": 30,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 15
+        },
+        {
+          "play": 31,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 15
+        },
+        {
+          "play": 32,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 16
+        },
+        {
+          "play": 33,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 16
+        },
+        {
+          "play": 34,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 17
+        },
+        {
+          "play": 35,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 17
+        },
+        {
+          "play": 36,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 18
+        },
+        {
+          "play": 37,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 18
+        },
+        {
+          "play": 38,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 19
+        },
+        {
+          "play": 39,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 19
+        },
+        {
+          "play": 40,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 20
+        },
+        {
+          "play": 41,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 20
+        },
+        {
+          "play": 42,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 21
+        },
+        {
+          "play": 43,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 21
+        },
+        {
+          "play": 44,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 22
+        },
+        {
+          "play": 45,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 22
+        },
+        {
+          "play": 46,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 23
+        },
+        {
+          "play": 47,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 23
+        },
+        {
+          "play": 48,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 24
+        },
+        {
+          "play": 49,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 24
+        },
+        {
+          "play": 50,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 25
+        },
+        {
+          "play": 51,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 25
+        },
+        {
+          "play": 52,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 26
+        },
+        {
+          "play": 53,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 26
+        },
+        {
+          "play": 54,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 27
+        },
+        {
+          "play": 55,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 27
+        },
+        {
+          "play": 56,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 28
+        },
+        {
+          "play": 57,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 28
+        },
+        {
+          "play": 58,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 29
+        },
+        {
+          "play": 59,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 29
+        },
+        {
+          "play": 60,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 30
+        },
+        {
+          "play": 61,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 30
+        },
+        {
+          "play": 62,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 31
+        },
+        {
+          "play": 63,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 31
+        },
+        {
+          "play": 64,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 32
+        },
+        {
+          "play": 65,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 32
+        },
+        {
+          "play": 66,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 33
+        },
+        {
+          "play": 67,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 33
+        },
+        {
+          "play": 68,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 34
+        },
+        {
+          "play": 69,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 34
+        },
+        {
+          "play": 70,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 35
+        },
+        {
+          "play": 71,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 35
+        },
+        {
+          "play": 72,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 36
+        },
+        {
+          "play": 73,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 36
+        },
+        {
+          "play": 74,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 37
+        },
+        {
+          "play": 75,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 37
+        },
+        {
+          "play": 76,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 38
+        },
+        {
+          "play": 77,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 38
+        },
+        {
+          "play": 78,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 39
+        },
+        {
+          "play": 79,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 39
+        },
+        {
+          "play": 80,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 40
+        }
+      ]
+    },
+    {
+      "scenario": "four-card dust-yin wind-yang paid loop",
+      "upgraded": true,
+      "plays": 80,
+      "stopped": "80-play test ceiling",
+      "energy": 3,
+      "damage": 380,
+      "trace": [
+        {
+          "play": 1,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 0
+        },
+        {
+          "play": 2,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 1
+        },
+        {
+          "play": 3,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 1
+        },
+        {
+          "play": 4,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 2
+        },
+        {
+          "play": 5,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 2
+        },
+        {
+          "play": 6,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 3
+        },
+        {
+          "play": 7,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 3
+        },
+        {
+          "play": 8,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 4
+        },
+        {
+          "play": 9,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 4
+        },
+        {
+          "play": 10,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 5
+        },
+        {
+          "play": 11,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 5
+        },
+        {
+          "play": 12,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 6
+        },
+        {
+          "play": 13,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 6
+        },
+        {
+          "play": 14,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 7
+        },
+        {
+          "play": 15,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 7
+        },
+        {
+          "play": 16,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 8
+        },
+        {
+          "play": 17,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 8
+        },
+        {
+          "play": 18,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 9
+        },
+        {
+          "play": 19,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 9
+        },
+        {
+          "play": 20,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 10
+        },
+        {
+          "play": 21,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 10
+        },
+        {
+          "play": 22,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 11
+        },
+        {
+          "play": 23,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 11
+        },
+        {
+          "play": 24,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 12
+        },
+        {
+          "play": 25,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 12
+        },
+        {
+          "play": 26,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 13
+        },
+        {
+          "play": 27,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 13
+        },
+        {
+          "play": 28,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 14
+        },
+        {
+          "play": 29,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 14
+        },
+        {
+          "play": 30,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 15
+        },
+        {
+          "play": 31,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 15
+        },
+        {
+          "play": 32,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 16
+        },
+        {
+          "play": 33,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 16
+        },
+        {
+          "play": 34,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 17
+        },
+        {
+          "play": 35,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 17
+        },
+        {
+          "play": 36,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 18
+        },
+        {
+          "play": 37,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 18
+        },
+        {
+          "play": 38,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 19
+        },
+        {
+          "play": 39,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 19
+        },
+        {
+          "play": 40,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 20
+        },
+        {
+          "play": 41,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 20
+        },
+        {
+          "play": 42,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 21
+        },
+        {
+          "play": 43,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 21
+        },
+        {
+          "play": 44,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 22
+        },
+        {
+          "play": 45,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 22
+        },
+        {
+          "play": 46,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 23
+        },
+        {
+          "play": 47,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 23
+        },
+        {
+          "play": 48,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 24
+        },
+        {
+          "play": 49,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 24
+        },
+        {
+          "play": 50,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 25
+        },
+        {
+          "play": 51,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 25
+        },
+        {
+          "play": 52,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 26
+        },
+        {
+          "play": 53,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 26
+        },
+        {
+          "play": 54,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 27
+        },
+        {
+          "play": 55,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 27
+        },
+        {
+          "play": 56,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 28
+        },
+        {
+          "play": 57,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 28
+        },
+        {
+          "play": 58,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 29
+        },
+        {
+          "play": 59,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 29
+        },
+        {
+          "play": 60,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 30
+        },
+        {
+          "play": 61,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 30
+        },
+        {
+          "play": 62,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 31
+        },
+        {
+          "play": 63,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 31
+        },
+        {
+          "play": 64,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 32
+        },
+        {
+          "play": 65,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 32
+        },
+        {
+          "play": 66,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 33
+        },
+        {
+          "play": 67,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 33
+        },
+        {
+          "play": 68,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 34
+        },
+        {
+          "play": 69,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 34
+        },
+        {
+          "play": 70,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 35
+        },
+        {
+          "play": 71,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 35
+        },
+        {
+          "play": 72,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 36
+        },
+        {
+          "play": 73,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 36
+        },
+        {
+          "play": 74,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 37
+        },
+        {
+          "play": 75,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 37
+        },
+        {
+          "play": 76,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 38
+        },
+        {
+          "play": 77,
+          "id": "Sage042",
+          "energy": 2,
+          "hand": 3,
+          "observations": 38
+        },
+        {
+          "play": 78,
+          "id": "Sage009",
+          "energy": 4,
+          "hand": 3,
+          "observations": 39
+        },
+        {
+          "play": 79,
+          "id": "Sage044",
+          "energy": 3,
+          "hand": 3,
+          "observations": 39
+        },
+        {
+          "play": 80,
+          "id": "Sage046",
+          "energy": 3,
+          "hand": 3,
+          "observations": 40
+        }
+      ]
+    }
+  ],
+  "cardsUnchangedFrom": "0.5.2"
+}

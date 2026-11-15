@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><LangVersion>latest</LangVersion>
+    <Version>0.1.1</Version><AssemblyName>CelestialWeather</AssemblyName><EnableDynamicLoading>true</EnableDynamicLoading>
+    <GameDir>D:\steam\steamapps\common\Slay the Spire 2</GameDir>
+    <RitsuDir Condition="'$(RitsuDir)'==''">D:\mod\test-game-111\mods\STS2-RitsuLib</RitsuDir>
+    <RitsuLibReferenceTarget>0.111.0</RitsuLibReferenceTarget><NoWarn>$(NoWarn);CS0618</NoWarn>
+  </PropertyGroup>
+  <Import Project="$(RitsuDir)\RitsuLib.References.props" />
+  <ItemGroup>
+    <Reference Include="sts2" HintPath="$(GameDir)\data_sts2_windows_x86_64\sts2.dll" Private="false" />
+    <Reference Include="GodotSharp" HintPath="$(GameDir)\data_sts2_windows_x86_64\GodotSharp.dll" Private="false" />
+    <Reference Include="0Harmony" HintPath="$(GameDir)\data_sts2_windows_x86_64\0Harmony.dll" Private="false" />
+  </ItemGroup>
+</Project>

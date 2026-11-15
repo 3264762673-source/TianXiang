@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup><TargetFramework>net9.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><LangVersion>latest</LangVersion><RitsuLibReferenceTarget>0.111.0</RitsuLibReferenceTarget><NoWarn>$(NoWarn);CS0618</NoWarn></PropertyGroup>
+<Import Project="D:\mod\test-game-111\mods\STS2-RitsuLib\RitsuLib.References.props"/>
+<ItemGroup>
+<ProjectReference Include="..\TianXiang-v0.6.0\TianXiang.csproj"/>
+<ProjectReference Include="..\CelestialWeather-v0.1.1-game111\CelestialWeather.csproj"/>
+<Reference Include="sts2" HintPath="D:\steam\steamapps\common\Slay the Spire 2\data_sts2_windows_x86_64\sts2.dll" Private="false"/>
+<Reference Include="GodotSharp" HintPath="D:\steam\steamapps\common\Slay the Spire 2\data_sts2_windows_x86_64\GodotSharp.dll" Private="false"/>
+<Reference Include="0Harmony" HintPath="D:\steam\steamapps\common\Slay the Spire 2\data_sts2_windows_x86_64\0Harmony.dll" Private="false"/>
+</ItemGroup>
+</Project>
+
+
+

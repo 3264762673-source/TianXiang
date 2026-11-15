@@ -1,0 +1,630 @@
+[
+  {
+    "id": "StrikeIronclad",
+    "title": "打击",
+    "upgraded": false,
+    "cost": 1,
+    "rarity": "Basic",
+    "type": "Attack",
+    "vars": {
+      "Damage": 6
+    },
+    "keywords": []
+  },
+  {
+    "id": "StrikeIronclad",
+    "title": "打击+",
+    "upgraded": true,
+    "cost": 1,
+    "rarity": "Basic",
+    "type": "Attack",
+    "vars": {
+      "Damage": 9
+    },
+    "keywords": []
+  },
+  {
+    "id": "DefendIronclad",
+    "title": "防御",
+    "upgraded": false,
+    "cost": 1,
+    "rarity": "Basic",
+    "type": "Skill",
+    "vars": {
+      "Block": 5
+    },
+    "keywords": []
+  },
+  {
+    "id": "DefendIronclad",
+    "title": "防御+",
+    "upgraded": true,
+    "cost": 1,
+    "rarity": "Basic",
+    "type": "Skill",
+    "vars": {
+      "Block": 8
+    },
+    "keywords": []
+  },
+  {
+    "id": "PommelStrike",
+    "title": "剑柄打击",
+    "upgraded": false,
+    "cost": 1,
+    "rarity": "Common",
+    "type": "Attack",
+    "vars": {
+      "Damage": 9,
+      "Cards": 1
+    },
+    "keywords": []
+  },
+  {
+    "id": "PommelStrike",
+    "title": "剑柄打击+",
+    "upgraded": true,
+    "cost": 1,
+    "rarity": "Common",
+    "type": "Attack",
+    "vars": {
+      "Damage": 10,
+      "Cards": 2
+    },
+    "keywords": []
+  },
+  {
+    "id": "ShrugItOff",
+    "title": "耸肩无视",
+    "upgraded": false,
+    "cost": 1,
+    "rarity": "Common",
+    "type": "Skill",
+    "vars": {
+      "Block": 8,
+      "Cards": 1
+    },
+    "keywords": []
+  },
+  {
+    "id": "ShrugItOff",
+    "title": "耸肩无视+",
+    "upgraded": true,
+    "cost": 1,
+    "rarity": "Common",
+    "type": "Skill",
+    "vars": {
+      "Block": 11,
+      "Cards": 1
+    },
+    "keywords": []
+  },
+  {
+    "id": "Backflip",
+    "title": "后空翻",
+    "upgraded": false,
+    "cost": 1,
+    "rarity": "Common",
+    "type": "Skill",
+    "vars": {
+      "Block": 5,
+      "Cards": 2
+    },
+    "keywords": []
+  },
+  {
+    "id": "Backflip",
+    "title": "后空翻+",
+    "upgraded": true,
+    "cost": 1,
+    "rarity": "Common",
+    "type": "Skill",
+    "vars": {
+      "Block": 8,
+      "Cards": 2
+    },
+    "keywords": []
+  },
+  {
+    "id": "Acrobatics",
+    "title": "杂技",
+    "upgraded": false,
+    "cost": 1,
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "vars": {
+      "Cards": 3
+    },
+    "keywords": []
+  },
+  {
+    "id": "Acrobatics",
+    "title": "杂技+",
+    "upgraded": true,
+    "cost": 1,
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "vars": {
+      "Cards": 4
+    },
+    "keywords": []
+  },
+  {
+    "id": "BattleTrance",
+    "title": "战斗专注",
+    "upgraded": false,
+    "cost": 0,
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "vars": {
+      "Cards": 3
+    },
+    "keywords": []
+  },
+  {
+    "id": "BattleTrance",
+    "title": "战斗专注+",
+    "upgraded": true,
+    "cost": 0,
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "vars": {
+      "Cards": 4
+    },
+    "keywords": []
+  },
+  {
+    "id": "Coolheaded",
+    "title": "冷静头脑",
+    "upgraded": false,
+    "cost": 1,
+    "rarity": "Common",
+    "type": "Skill",
+    "vars": {
+      "Cards": 1
+    },
+    "keywords": []
+  },
+  {
+    "id": "Coolheaded",
+    "title": "冷静头脑+",
+    "upgraded": true,
+    "cost": 1,
+    "rarity": "Common",
+    "type": "Skill",
+    "vars": {
+      "Cards": 2
+    },
+    "keywords": []
+  },
+  {
+    "id": "BallLightning",
+    "title": "球状闪电",
+    "upgraded": false,
+    "cost": 1,
+    "rarity": "Common",
+    "type": "Attack",
+    "vars": {
+      "Damage": 7
+    },
+    "keywords": []
+  },
+  {
+    "id": "BallLightning",
+    "title": "球状闪电+",
+    "upgraded": true,
+    "cost": 1,
+    "rarity": "Common",
+    "type": "Attack",
+    "vars": {
+      "Damage": 10
+    },
+    "keywords": []
+  },
+  {
+    "id": "Footwork",
+    "title": "灵动步法",
+    "upgraded": false,
+    "cost": 1,
+    "rarity": "Uncommon",
+    "type": "Power",
+    "vars": {
+      "DexterityPower": 2
+    },
+    "keywords": []
+  },
+  {
+    "id": "Footwork",
+    "title": "灵动步法+",
+    "upgraded": true,
+    "cost": 1,
+    "rarity": "Uncommon",
+    "type": "Power",
+    "vars": {
+      "DexterityPower": 3
+    },
+    "keywords": []
+  },
+  {
+    "id": "Inflame",
+    "title": "燃烧",
+    "upgraded": false,
+    "cost": 1,
+    "rarity": "Uncommon",
+    "type": "Power",
+    "vars": {
+      "StrengthPower": 2
+    },
+    "keywords": []
+  },
+  {
+    "id": "Inflame",
+    "title": "燃烧+",
+    "upgraded": true,
+    "cost": 1,
+    "rarity": "Uncommon",
+    "type": "Power",
+    "vars": {
+      "StrengthPower": 3
+    },
+    "keywords": []
+  },
+  {
+    "id": "Skim",
+    "title": "快速检索",
+    "upgraded": false,
+    "cost": 1,
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "vars": {
+      "Cards": 3
+    },
+    "keywords": []
+  },
+  {
+    "id": "Skim",
+    "title": "快速检索+",
+    "upgraded": true,
+    "cost": 1,
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "vars": {
+      "Cards": 4
+    },
+    "keywords": []
+  },
+  {
+    "id": "Offering",
+    "title": "祭品",
+    "upgraded": false,
+    "cost": 0,
+    "rarity": "Rare",
+    "type": "Skill",
+    "vars": {
+      "HpLoss": 6,
+      "Energy": 2,
+      "Cards": 3
+    },
+    "keywords": [
+      "Exhaust"
+    ]
+  },
+  {
+    "id": "Offering",
+    "title": "祭品+",
+    "upgraded": true,
+    "cost": 0,
+    "rarity": "Rare",
+    "type": "Skill",
+    "vars": {
+      "HpLoss": 6,
+      "Energy": 2,
+      "Cards": 5
+    },
+    "keywords": [
+      "Exhaust"
+    ]
+  },
+  {
+    "id": "Prepared",
+    "title": "早有准备",
+    "upgraded": false,
+    "cost": 0,
+    "rarity": "Common",
+    "type": "Skill",
+    "vars": {
+      "Cards": 1
+    },
+    "keywords": []
+  },
+  {
+    "id": "Prepared",
+    "title": "早有准备+",
+    "upgraded": true,
+    "cost": 0,
+    "rarity": "Common",
+    "type": "Skill",
+    "vars": {
+      "Cards": 2
+    },
+    "keywords": []
+  },
+  {
+    "id": "DaggerSpray",
+    "title": "匕首雨",
+    "upgraded": false,
+    "cost": 1,
+    "rarity": "Common",
+    "type": "Attack",
+    "vars": {
+      "Damage": 4
+    },
+    "keywords": []
+  },
+  {
+    "id": "DaggerSpray",
+    "title": "匕首雨+",
+    "upgraded": true,
+    "cost": 1,
+    "rarity": "Common",
+    "type": "Attack",
+    "vars": {
+      "Damage": 6
+    },
+    "keywords": []
+  },
+  {
+    "id": "SweepingBeam",
+    "title": "扫荡射线",
+    "upgraded": false,
+    "cost": 1,
+    "rarity": "Common",
+    "type": "Attack",
+    "vars": {
+      "Damage": 6,
+      "Cards": 1
+    },
+    "keywords": []
+  },
+  {
+    "id": "SweepingBeam",
+    "title": "扫荡射线+",
+    "upgraded": true,
+    "cost": 1,
+    "rarity": "Common",
+    "type": "Attack",
+    "vars": {
+      "Damage": 9,
+      "Cards": 1
+    },
+    "keywords": []
+  },
+  {
+    "id": "Dash",
+    "title": "冲刺",
+    "upgraded": false,
+    "cost": 2,
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "vars": {
+      "Damage": 10,
+      "Block": 10
+    },
+    "keywords": []
+  },
+  {
+    "id": "Dash",
+    "title": "冲刺+",
+    "upgraded": true,
+    "cost": 2,
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "vars": {
+      "Damage": 13,
+      "Block": 13
+    },
+    "keywords": []
+  },
+  {
+    "id": "LegSweep",
+    "title": "扫腿",
+    "upgraded": false,
+    "cost": 2,
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "vars": {
+      "Block": 11,
+      "WeakPower": 2
+    },
+    "keywords": []
+  },
+  {
+    "id": "LegSweep",
+    "title": "扫腿+",
+    "upgraded": true,
+    "cost": 2,
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "vars": {
+      "Block": 14,
+      "WeakPower": 3
+    },
+    "keywords": []
+  },
+  {
+    "id": "Glacier",
+    "title": "冰川",
+    "upgraded": false,
+    "cost": 2,
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "vars": {
+      "Block": 6
+    },
+    "keywords": []
+  },
+  {
+    "id": "Glacier",
+    "title": "冰川+",
+    "upgraded": true,
+    "cost": 2,
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "vars": {
+      "Block": 9
+    },
+    "keywords": []
+  },
+  {
+    "id": "Hologram",
+    "title": "全息影像",
+    "upgraded": false,
+    "cost": 1,
+    "rarity": "Common",
+    "type": "Skill",
+    "vars": {
+      "Block": 3
+    },
+    "keywords": [
+      "Exhaust"
+    ]
+  },
+  {
+    "id": "Hologram",
+    "title": "全息影像+",
+    "upgraded": true,
+    "cost": 1,
+    "rarity": "Common",
+    "type": "Skill",
+    "vars": {
+      "Block": 5
+    },
+    "keywords": []
+  },
+  {
+    "id": "AllForOne",
+    "title": "万物一心",
+    "upgraded": false,
+    "cost": 2,
+    "rarity": "Rare",
+    "type": "Attack",
+    "vars": {
+      "Damage": 10
+    },
+    "keywords": []
+  },
+  {
+    "id": "AllForOne",
+    "title": "万物一心+",
+    "upgraded": true,
+    "cost": 2,
+    "rarity": "Rare",
+    "type": "Attack",
+    "vars": {
+      "Damage": 14
+    },
+    "keywords": []
+  },
+  {
+    "id": "FlameBarrier",
+    "title": "火焰屏障",
+    "upgraded": false,
+    "cost": 2,
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "vars": {
+      "Block": 12,
+      "DamageBack": 4
+    },
+    "keywords": []
+  },
+  {
+    "id": "FlameBarrier",
+    "title": "火焰屏障+",
+    "upgraded": true,
+    "cost": 2,
+    "rarity": "Uncommon",
+    "type": "Skill",
+    "vars": {
+      "Block": 16,
+      "DamageBack": 6
+    },
+    "keywords": []
+  },
+  {
+    "id": "Predator",
+    "title": "猎杀者",
+    "upgraded": false,
+    "cost": 2,
+    "rarity": "Common",
+    "type": "Attack",
+    "vars": {
+      "Damage": 15
+    },
+    "keywords": []
+  },
+  {
+    "id": "Predator",
+    "title": "猎杀者+",
+    "upgraded": true,
+    "cost": 2,
+    "rarity": "Common",
+    "type": "Attack",
+    "vars": {
+      "Damage": 20
+    },
+    "keywords": []
+  },
+  {
+    "id": "Uppercut",
+    "title": "上勾拳",
+    "upgraded": false,
+    "cost": 2,
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "vars": {
+      "Damage": 13,
+      "Power": 1
+    },
+    "keywords": []
+  },
+  {
+    "id": "Uppercut",
+    "title": "上勾拳+",
+    "upgraded": true,
+    "cost": 2,
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "vars": {
+      "Damage": 13,
+      "Power": 2
+    },
+    "keywords": []
+  },
+  {
+    "id": "Sunder",
+    "title": "分离",
+    "upgraded": false,
+    "cost": 3,
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "vars": {
+      "Damage": 26,
+      "Energy": 3
+    },
+    "keywords": []
+  },
+  {
+    "id": "Sunder",
+    "title": "分离+",
+    "upgraded": true,
+    "cost": 3,
+    "rarity": "Uncommon",
+    "type": "Attack",
+    "vars": {
+      "Damage": 34,
+      "Energy": 3
+    },
+    "keywords": []
+  }
+]

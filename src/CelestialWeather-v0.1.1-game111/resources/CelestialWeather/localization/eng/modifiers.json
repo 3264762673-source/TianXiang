@@ -1,0 +1,4 @@
+{
+  "CELESTIAL_WEATHER_MODIFIER_UNPREDICTABLE_WEATHER.title": "天意难测",
+  "CELESTIAL_WEATHER_MODIFIER_UNPREDICTABLE_WEATHER.description": "每场战斗随机预报一种天气。第2、4、6…回合抽牌后执行，再从10种天气等概率抽取下一种，允许重复。天气可能帮助或伤害双方。"
+}

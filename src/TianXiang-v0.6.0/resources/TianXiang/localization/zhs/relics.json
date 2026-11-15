@@ -1,0 +1,17 @@
+{
+  "TIAN_XIANG_RELIC_WEATHER_COMPASS.title": "候风仪",
+  "TIAN_XIANG_RELIC_WEATHER_COMPASS.description": "每次观天时，抽1张牌，获得1点能量。",
+  "TIAN_XIANG_RELIC_WEATHER_COMPASS.flavor": "不改变天空，也能找到方向。",
+  "TIAN_XIANG_RELIC_CELESTIAL_COMPASS.title": "浑天候风仪",
+  "TIAN_XIANG_RELIC_CELESTIAL_COMPASS.description": "每次观天时，抽1张牌，获得1点能量。每次观天时，获得3点格挡。",
+  "TIAN_XIANG_RELIC_CELESTIAL_COMPASS.flavor": "风从何来，天从何始。",
+  "TIAN_XIANG_RELIC_JADE_DEW_CUP.title": "玉露盏",
+  "TIAN_XIANG_RELIC_JADE_DEW_CUP.description": "每回合首次阴观天时，额外获得3点格挡。",
+  "TIAN_XIANG_RELIC_JADE_DEW_CUP.flavor": "晨露过沿，方知夜凉。",
+  "TIAN_XIANG_RELIC_SUN_NEEDLE.title": "日晷针",
+  "TIAN_XIANG_RELIC_SUN_NEEDLE.description": "每回合首次阳观天时，对该敌人额外造成4点伤害。",
+  "TIAN_XIANG_RELIC_SUN_NEEDLE.flavor": "一寸影长，半刻晴光。",
+  "TIAN_XIANG_RELIC_THUNDER_BELL.title": "候雷铃",
+  "TIAN_XIANG_RELIC_THUNDER_BELL.description": "每场战斗中，每触发3次观天，对所有敌人造成5点伤害。",
+  "TIAN_XIANG_RELIC_THUNDER_BELL.flavor": "风来不响，雷至三鸣。"
+}

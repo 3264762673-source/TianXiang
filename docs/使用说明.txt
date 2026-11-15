@@ -1,0 +1,1 @@
+适用游戏 0.111.0。退出游戏后解压。Windows 运行 安装到游戏.cmd。macOS 在终端输入 bash 加空格，把 Install-macOS.command 拖入后回车；自定义库再传入 .app 路径。可追加 --weather 安装挑战。首次安装在游戏里启用天相者与 RitsuLib 后重启。

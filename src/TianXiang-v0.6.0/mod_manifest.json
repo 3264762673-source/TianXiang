@@ -1,0 +1,17 @@
+{
+  "id": "TianXiang",
+  "name": "天相者",
+  "author": "WeatherSage Team",
+  "version": "0.6.0",
+  "description": "天相者：90张卡牌、专属药水与遗物、事件适配、逐帧攻击动画。",
+  "has_pck": false,
+  "has_dll": true,
+  "affects_gameplay": true,
+  "min_game_version": "0.111.0",
+  "dependencies": [
+    {
+      "id": "STS2-RitsuLib",
+      "min_version": "0.6.10"
+    }
+  ]
+}

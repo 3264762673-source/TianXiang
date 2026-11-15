@@ -1,0 +1,18 @@
+{
+  "TIAN_XIANG_POWER_OBSERVATION_POWER.title": "观天",
+  "TIAN_XIANG_POWER_OBSERVATION_POWER.description": "材料与阴阳填满即反应，并清空两槽。",
+  "TIAN_XIANG_POWER_COLD_GUARD_POWER.title": "阴仪",
+  "TIAN_XIANG_POWER_COLD_GUARD_POWER.description": "每次阴观天，获得 {Amount} 点格挡。",
+  "TIAN_XIANG_POWER_WARM_GUARD_POWER.title": "阳仪",
+  "TIAN_XIANG_POWER_WARM_GUARD_POWER.description": "每次阳观天，获得 {Amount} 点格挡。",
+  "TIAN_XIANG_POWER_FIRST_OBSERVE_GUARD_POWER.title": "顺天而行",
+  "TIAN_XIANG_POWER_FIRST_OBSERVE_GUARD_POWER.description": "每回合首次观天，获得 {Amount} 点格挡。",
+  "TIAN_XIANG_POWER_OBSERVE_GUARD_POWER.title": "观测防线",
+  "TIAN_XIANG_POWER_OBSERVE_GUARD_POWER.description": "每次观天，获得 {Amount} 点格挡。",
+  "TIAN_XIANG_POWER_WARM_BURST_POWER.title": "阳焰",
+  "TIAN_XIANG_POWER_WARM_BURST_POWER.description": "每次阳观天，对该敌人额外造成 {Amount} 点伤害。",
+  "TIAN_XIANG_POWER_FIRST_OBSERVE_DRAW_POWER.title": "通晓天文",
+  "TIAN_XIANG_POWER_FIRST_OBSERVE_DRAW_POWER.description": "每回合首次观天，抽 {Amount} 张牌。",
+  "TIAN_XIANG_POWER_FIRST_OBSERVE_ENERGY_POWER.title": "季风引擎",
+  "TIAN_XIANG_POWER_FIRST_OBSERVE_ENERGY_POWER.description": "每回合首次观天，获得 {Amount} 点能量。"
+}

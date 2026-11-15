@@ -1,0 +1,15 @@
+v0.5.1 animation sheet / weapon motion map
+Runtime: Godot Skeleton2D + 6 Bone2D + Polygon2D skin + AnimationPlayer.
+1617 vertices, 3072 triangles. Texture bound once. No FrameSequence texture substitution.
+Facing: right. Visual root origin at feet. No locomotion or aim-direction system in this turn-based character.
+Idle: 2.4s loop, torso breathing, head counter-rotation, sleeve/cape sway.
+Attack: anticipation0-.09s; extension .09-.15s; active .15-.28s; recovery .28-.52s.
+Attack weapon arm rotates from +.16 to -.7 radians, torso shifts from -5 to +28 game pixels.
+Cast: anticipation0-.12s; raise instrument to .2s; hold through .48s; recover by .8s.
+Hurt: recoil .045s; recover by .3s. Native cues may interrupt previous animation.
+Die: collapse over1.1s, hold terminal pose; never auto-return to idle. Revive can return to idle.
+Action completion returns to idle. Native game attack/cast/hurt/death cue routing is used.
+Damage and card logic unchanged; no animation callbacks cause damage or resource changes.
+This is 2D weighted mesh animation, not a 3D model or a Spine project. Portrait/select art remains static UI art.
+World-scene rest/shop portraits retain the prior static art in this version.
+No live-player readability study, low-end hardware study, or reduced-effects blind test performed.

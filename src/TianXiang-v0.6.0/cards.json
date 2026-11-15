@@ -1,0 +1,2420 @@
+[
+  {
+    "id": "Sage001",
+    "name": "打击",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Attack",
+    "rarity": "Basic",
+    "material": "",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 6,
+        "upgrade": 9,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成6点伤害。",
+    "upgradeDescription": "对敌人造成9点伤害。"
+  },
+  {
+    "id": "Sage002",
+    "name": "水打击",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Attack",
+    "rarity": "Basic",
+    "material": "水",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 5,
+        "upgrade": 8,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成5点伤害。\n给予敌人【水】。",
+    "upgradeDescription": "对敌人造成8点伤害。\n给予敌人【水】。"
+  },
+  {
+    "id": "Sage003",
+    "name": "拂风击",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Attack",
+    "rarity": "Common",
+    "material": "风",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 3,
+        "upgrade": 4,
+        "arg": ""
+      },
+      {
+        "kind": "hits",
+        "base": 2,
+        "upgrade": 2,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成3点伤害，共2次。\n给予敌人【风】。",
+    "upgradeDescription": "对敌人造成4点伤害，共2次。\n给予敌人【风】。"
+  },
+  {
+    "id": "Sage004",
+    "name": "防御",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Basic",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 5,
+        "upgrade": 8,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "获得5点格挡。",
+    "upgradeDescription": "获得8点格挡。"
+  },
+  {
+    "id": "Sage005",
+    "name": "调阴阳",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Basic",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 4,
+        "upgrade": 7,
+        "arg": ""
+      },
+      {
+        "kind": "temp",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "选择"
+      }
+    ],
+    "exhaust": false,
+    "description": "获得4点格挡。\n使敌人获得阴或阳。",
+    "upgradeDescription": "获得7点格挡。\n使敌人获得阴或阳。"
+  },
+  {
+    "id": "Sage006",
+    "name": "气压计",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 5,
+        "upgrade": 8,
+        "arg": ""
+      },
+      {
+        "kind": "draw",
+        "base": 1,
+        "upgrade": 2,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "获得5点格挡。\n抽1张牌。",
+    "upgradeDescription": "获得8点格挡。\n抽2张牌。"
+  },
+  {
+    "id": "Sage007",
+    "name": "细雨",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Attack",
+    "rarity": "Common",
+    "material": "水",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 5,
+        "upgrade": 8,
+        "arg": ""
+      },
+      {
+        "kind": "weak",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成5点伤害。\n给予敌人1层虚弱。\n给予敌人【水】。",
+    "upgradeDescription": "对敌人造成8点伤害。\n给予敌人1层虚弱。\n给予敌人【水】。"
+  },
+  {
+    "id": "Sage008",
+    "name": "积露",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "material": "水",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 6,
+        "upgrade": 9,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "获得6点格挡。\n给予敌人【水】。",
+    "upgradeDescription": "获得9点格挡。\n给予敌人【水】。"
+  },
+  {
+    "id": "Sage009",
+    "name": "阴锋",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Attack",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 7,
+        "upgrade": 10,
+        "arg": ""
+      },
+      {
+        "kind": "temp",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "阴"
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成7点伤害。\n使敌人获得阴。",
+    "upgradeDescription": "对敌人造成10点伤害。\n使敌人获得阴。"
+  },
+  {
+    "id": "Sage010",
+    "name": "阳锋",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Attack",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 7,
+        "upgrade": 10,
+        "arg": ""
+      },
+      {
+        "kind": "temp",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "阳"
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成7点伤害。\n使敌人获得阳。",
+    "upgradeDescription": "对敌人造成10点伤害。\n使敌人获得阳。"
+  },
+  {
+    "id": "Sage011",
+    "name": "砂砾",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Attack",
+    "rarity": "Common",
+    "material": "尘",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 2,
+        "upgrade": 3,
+        "arg": ""
+      },
+      {
+        "kind": "hits",
+        "base": 3,
+        "upgrade": 3,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成2点伤害，共3次。\n给予敌人【尘】。",
+    "upgradeDescription": "对敌人造成3点伤害，共3次。\n给予敌人【尘】。"
+  },
+  {
+    "id": "Sage012",
+    "name": "尘幕",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "material": "尘",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 6,
+        "upgrade": 9,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "获得6点格挡。\n给予敌人【尘】。",
+    "upgradeDescription": "获得9点格挡。\n给予敌人【尘】。"
+  },
+  {
+    "id": "Sage013",
+    "name": "风刃",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Attack",
+    "rarity": "Common",
+    "material": "风",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 8,
+        "upgrade": 11,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成8点伤害。\n给予敌人【风】。",
+    "upgradeDescription": "对敌人造成11点伤害。\n给予敌人【风】。"
+  },
+  {
+    "id": "Sage014",
+    "name": "迎风",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "material": "风",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 5,
+        "upgrade": 8,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "获得5点格挡。\n给予敌人【风】。",
+    "upgradeDescription": "获得8点格挡。\n给予敌人【风】。"
+  },
+  {
+    "id": "Sage015",
+    "name": "焚云借势",
+    "cost": 0,
+    "upgradeCost": 0,
+    "type": "Skill",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "draw",
+        "base": 1,
+        "upgrade": 2,
+        "arg": ""
+      },
+      {
+        "kind": "alter",
+        "base": 1,
+        "upgrade": 1,
+        "arg": "天气"
+      },
+      {
+        "kind": "alterEnergy",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "抽1张牌。\n改天：消耗1张天气牌。若如此，获得1点能量。",
+    "upgradeDescription": "抽2张牌。\n改天：消耗1张天气牌。若如此，获得1点能量。"
+  },
+  {
+    "id": "Sage016",
+    "name": "定阴阳",
+    "cost": 0,
+    "upgradeCost": 0,
+    "type": "Skill",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "temp",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "选择"
+      },
+      {
+        "kind": "block",
+        "base": 2,
+        "upgrade": 5,
+        "arg": ""
+      }
+    ],
+    "exhaust": true,
+    "description": "使敌人获得阴或阳。\n获得2点格挡。",
+    "upgradeDescription": "使敌人获得阴或阳。\n获得5点格挡。"
+  },
+  {
+    "id": "Sage017",
+    "name": "阴翳",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "temp",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "阴"
+      },
+      {
+        "kind": "weak",
+        "base": 2,
+        "upgrade": 3,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "使敌人获得阴。\n给予敌人2层虚弱。",
+    "upgradeDescription": "使敌人获得阴。\n给予敌人3层虚弱。"
+  },
+  {
+    "id": "Sage018",
+    "name": "阳护",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 6,
+        "upgrade": 9,
+        "arg": ""
+      },
+      {
+        "kind": "temp",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "阳"
+      }
+    ],
+    "exhaust": false,
+    "description": "获得6点格挡。\n使敌人获得阳。",
+    "upgradeDescription": "获得9点格挡。\n使敌人获得阳。"
+  },
+  {
+    "id": "Sage019",
+    "name": "阴障",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 6,
+        "upgrade": 9,
+        "arg": ""
+      },
+      {
+        "kind": "temp",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "阴"
+      }
+    ],
+    "exhaust": false,
+    "description": "获得6点格挡。\n使敌人获得阴。",
+    "upgradeDescription": "获得9点格挡。\n使敌人获得阴。"
+  },
+  {
+    "id": "Sage020",
+    "name": "灼痕",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Attack",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 5,
+        "upgrade": 8,
+        "arg": ""
+      },
+      {
+        "kind": "vulnerable",
+        "base": 1,
+        "upgrade": 2,
+        "arg": ""
+      },
+      {
+        "kind": "temp",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "阳"
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成5点伤害。\n给予敌人1层易伤。\n使敌人获得阳。",
+    "upgradeDescription": "对敌人造成8点伤害。\n给予敌人2层易伤。\n使敌人获得阳。"
+  },
+  {
+    "id": "Sage021",
+    "name": "焚云连击",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Attack",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 6,
+        "upgrade": 9,
+        "arg": ""
+      },
+      {
+        "kind": "alter",
+        "base": 1,
+        "upgrade": 1,
+        "arg": "天气"
+      },
+      {
+        "kind": "alterAttack",
+        "base": 4,
+        "upgrade": 6,
+        "arg": "2"
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成6点伤害。\n改天：消耗1张天气牌。若如此，再造成4点伤害，共2次。",
+    "upgradeDescription": "对敌人造成9点伤害。\n改天：消耗1张天气牌。若如此，再造成6点伤害，共2次。"
+  },
+  {
+    "id": "Sage022",
+    "name": "除秽",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 7,
+        "upgrade": 10,
+        "arg": ""
+      },
+      {
+        "kind": "alter",
+        "base": 1,
+        "upgrade": 1,
+        "arg": "非天气"
+      },
+      {
+        "kind": "alterDraw",
+        "base": 1,
+        "upgrade": 2,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "获得7点格挡。\n改天：消耗1张非天气牌。若如此，抽1张牌。",
+    "upgradeDescription": "获得10点格挡。\n改天：消耗1张非天气牌。若如此，抽2张牌。"
+  },
+  {
+    "id": "Sage023",
+    "name": "弃旧迎新",
+    "cost": 2,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "draw",
+        "base": 2,
+        "upgrade": 3,
+        "arg": ""
+      },
+      {
+        "kind": "alter",
+        "base": 1,
+        "upgrade": 1,
+        "arg": "非天气"
+      },
+      {
+        "kind": "alterEnergy",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "抽2张牌。\n改天：消耗1张非天气牌。若如此，获得1点能量。",
+    "upgradeDescription": "抽3张牌。\n改天：消耗1张非天气牌。若如此，获得1点能量。"
+  },
+  {
+    "id": "Sage024",
+    "name": "雨前准备",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 7,
+        "upgrade": 10,
+        "arg": ""
+      },
+      {
+        "kind": "conditionalBlock",
+        "base": 4,
+        "upgrade": 6,
+        "arg": "材料"
+      }
+    ],
+    "exhaust": false,
+    "description": "获得7点格挡。\n若敌人有材料，再获得4点格挡。",
+    "upgradeDescription": "获得10点格挡。\n若敌人有材料，再获得6点格挡。"
+  },
+  {
+    "id": "Sage025",
+    "name": "破雾",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Attack",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 8,
+        "upgrade": 11,
+        "arg": ""
+      },
+      {
+        "kind": "conditionalDamage",
+        "base": 4,
+        "upgrade": 7,
+        "arg": "材料"
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成8点伤害。\n若敌人有材料，再造成4点伤害。",
+    "upgradeDescription": "对敌人造成11点伤害。\n若敌人有材料，再造成7点伤害。"
+  },
+  {
+    "id": "Sage026",
+    "name": "阴刃",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Attack",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 4,
+        "upgrade": 5,
+        "arg": ""
+      },
+      {
+        "kind": "hits",
+        "base": 2,
+        "upgrade": 2,
+        "arg": ""
+      },
+      {
+        "kind": "conditionalDamage",
+        "base": 4,
+        "upgrade": 7,
+        "arg": "阴"
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成4点伤害，共2次。\n若敌人有阴，再造成4点伤害。",
+    "upgradeDescription": "对敌人造成5点伤害，共2次。\n若敌人有阴，再造成7点伤害。"
+  },
+  {
+    "id": "Sage027",
+    "name": "逐阳",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Attack",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 8,
+        "upgrade": 11,
+        "arg": ""
+      },
+      {
+        "kind": "conditionalDraw",
+        "base": 1,
+        "upgrade": 2,
+        "arg": "阳"
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成8点伤害。\n若敌人有阳，再抽1张牌。",
+    "upgradeDescription": "对敌人造成11点伤害。\n若敌人有阳，再抽2张牌。"
+  },
+  {
+    "id": "Sage028",
+    "name": "水纹",
+    "cost": 0,
+    "upgradeCost": 0,
+    "type": "Attack",
+    "rarity": "Common",
+    "material": "水",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 3,
+        "upgrade": 5,
+        "arg": ""
+      }
+    ],
+    "exhaust": true,
+    "description": "对敌人造成3点伤害。\n给予敌人【水】。",
+    "upgradeDescription": "对敌人造成5点伤害。\n给予敌人【水】。"
+  },
+  {
+    "id": "Sage029",
+    "name": "逆风护体",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 9,
+        "upgrade": 13,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "获得9点格挡。",
+    "upgradeDescription": "获得13点格挡。"
+  },
+  {
+    "id": "Sage030",
+    "name": "砂纸",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Attack",
+    "rarity": "Common",
+    "material": "尘",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 5,
+        "upgrade": 8,
+        "arg": ""
+      },
+      {
+        "kind": "vulnerable",
+        "base": 1,
+        "upgrade": 2,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成5点伤害。\n给予敌人1层易伤。\n给予敌人【尘】。",
+    "upgradeDescription": "对敌人造成8点伤害。\n给予敌人2层易伤。\n给予敌人【尘】。"
+  },
+  {
+    "id": "Sage031",
+    "name": "静气",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "draw",
+        "base": 2,
+        "upgrade": 3,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "抽2张牌。",
+    "upgradeDescription": "抽3张牌。"
+  },
+  {
+    "id": "Sage032",
+    "name": "焚云转仪",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 5,
+        "upgrade": 8,
+        "arg": ""
+      },
+      {
+        "kind": "alter",
+        "base": 1,
+        "upgrade": 1,
+        "arg": "天气"
+      },
+      {
+        "kind": "alterTempAll",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "选择"
+      }
+    ],
+    "exhaust": false,
+    "description": "获得5点格挡。\n改天：消耗1张天气牌。若如此，使所有敌人获得阴或阳。",
+    "upgradeDescription": "获得8点格挡。\n改天：消耗1张天气牌。若如此，使所有敌人获得阴或阳。"
+  },
+  {
+    "id": "Sage033",
+    "name": "阴指",
+    "cost": 0,
+    "upgradeCost": 0,
+    "type": "Attack",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 3,
+        "upgrade": 6,
+        "arg": ""
+      },
+      {
+        "kind": "temp",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "阴"
+      }
+    ],
+    "exhaust": true,
+    "description": "对敌人造成3点伤害。\n使敌人获得阴。",
+    "upgradeDescription": "对敌人造成6点伤害。\n使敌人获得阴。"
+  },
+  {
+    "id": "Sage034",
+    "name": "阳指",
+    "cost": 0,
+    "upgradeCost": 0,
+    "type": "Attack",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 3,
+        "upgrade": 6,
+        "arg": ""
+      },
+      {
+        "kind": "temp",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "阳"
+      }
+    ],
+    "exhaust": true,
+    "description": "对敌人造成3点伤害。\n使敌人获得阳。",
+    "upgradeDescription": "对敌人造成6点伤害。\n使敌人获得阳。"
+  },
+  {
+    "id": "Sage035",
+    "name": "尘埃落定",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "material": "尘",
+    "ops": [
+      {
+        "kind": "draw",
+        "base": 1,
+        "upgrade": 2,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "抽1张牌。\n给予敌人【尘】。",
+    "upgradeDescription": "抽2张牌。\n给予敌人【尘】。"
+  },
+  {
+    "id": "Sage036",
+    "name": "避风处",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Common",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 6,
+        "upgrade": 9,
+        "arg": ""
+      },
+      {
+        "kind": "nextObserveBlock",
+        "base": 5,
+        "upgrade": 9,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "获得6点格挡。\n下次观天额外获得5点格挡。",
+    "upgradeDescription": "获得9点格挡。\n下次观天额外获得9点格挡。"
+  },
+  {
+    "id": "Sage037",
+    "name": "阵雨",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Attack",
+    "rarity": "Uncommon",
+    "material": "水",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 4,
+        "upgrade": 5,
+        "arg": ""
+      },
+      {
+        "kind": "hits",
+        "base": 3,
+        "upgrade": 3,
+        "arg": ""
+      },
+      {
+        "kind": "all",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "对所有敌人造成4点伤害，共3次。\n给予所有敌人【水】。",
+    "upgradeDescription": "对所有敌人造成5点伤害，共3次。\n给予所有敌人【水】。"
+  },
+  {
+    "id": "Sage038",
+    "name": "卷尘",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Attack",
+    "rarity": "Uncommon",
+    "material": "尘",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 8,
+        "upgrade": 11,
+        "arg": ""
+      },
+      {
+        "kind": "vulnerable",
+        "base": 1,
+        "upgrade": 2,
+        "arg": ""
+      },
+      {
+        "kind": "all",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "对所有敌人造成8点伤害。\n给予所有敌人1层易伤。\n给予所有敌人【尘】。",
+    "upgradeDescription": "对所有敌人造成11点伤害。\n给予所有敌人2层易伤。\n给予所有敌人【尘】。"
+  },
+  {
+    "id": "Sage039",
+    "name": "疾风",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Attack",
+    "rarity": "Uncommon",
+    "material": "风",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 8,
+        "upgrade": 11,
+        "arg": ""
+      },
+      {
+        "kind": "draw",
+        "base": 2,
+        "upgrade": 2,
+        "arg": ""
+      },
+      {
+        "kind": "all",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "对所有敌人造成8点伤害。\n抽2张牌。\n给予所有敌人【风】。",
+    "upgradeDescription": "对所有敌人造成11点伤害。\n抽2张牌。\n给予所有敌人【风】。"
+  },
+  {
+    "id": "Sage040",
+    "name": "阴云压境",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 9,
+        "upgrade": 13,
+        "arg": ""
+      },
+      {
+        "kind": "tempAll",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "阴"
+      }
+    ],
+    "exhaust": false,
+    "description": "获得9点格挡。\n使所有敌人获得阴。",
+    "upgradeDescription": "获得13点格挡。\n使所有敌人获得阴。"
+  },
+  {
+    "id": "Sage041",
+    "name": "阳气奔涌",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Attack",
+    "rarity": "Uncommon",
+    "material": "",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 8,
+        "upgrade": 12,
+        "arg": ""
+      },
+      {
+        "kind": "all",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      },
+      {
+        "kind": "tempAll",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "阳"
+      }
+    ],
+    "exhaust": false,
+    "description": "对所有敌人造成8点伤害。\n使所有敌人获得阳。",
+    "upgradeDescription": "对所有敌人造成12点伤害。\n使所有敌人获得阳。"
+  },
+  {
+    "id": "Sage042",
+    "name": "凝结核",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "material": "尘",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 4,
+        "upgrade": 7,
+        "arg": ""
+      },
+      {
+        "kind": "draw",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "获得4点格挡。\n抽1张牌。\n给予敌人【尘】。",
+    "upgradeDescription": "获得7点格挡。\n抽1张牌。\n给予敌人【尘】。"
+  },
+  {
+    "id": "Sage043",
+    "name": "水汽输送",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "material": "水",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 4,
+        "upgrade": 7,
+        "arg": ""
+      },
+      {
+        "kind": "draw",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "获得4点格挡。\n抽1张牌。\n给予敌人【水】。",
+    "upgradeDescription": "获得7点格挡。\n抽1张牌。\n给予敌人【水】。"
+  },
+  {
+    "id": "Sage044",
+    "name": "风信",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Attack",
+    "rarity": "Uncommon",
+    "material": "风",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 6,
+        "upgrade": 9,
+        "arg": ""
+      },
+      {
+        "kind": "draw",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成6点伤害。\n抽1张牌。\n给予敌人【风】。",
+    "upgradeDescription": "对敌人造成9点伤害。\n抽1张牌。\n给予敌人【风】。"
+  },
+  {
+    "id": "Sage045",
+    "name": "阴阳交界",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Attack",
+    "rarity": "Uncommon",
+    "material": "",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 9,
+        "upgrade": 12,
+        "arg": ""
+      },
+      {
+        "kind": "flip",
+        "base": 0,
+        "upgrade": 0,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成9点伤害。\n翻转敌人的阴阳。若没有阴阳，施加阴。",
+    "upgradeDescription": "对敌人造成12点伤害。\n翻转敌人的阴阳。若没有阴阳，施加阴。"
+  },
+  {
+    "id": "Sage046",
+    "name": "启阳",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "material": "",
+    "ops": [
+      {
+        "kind": "temp",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "阳"
+      },
+      {
+        "kind": "draw",
+        "base": 2,
+        "upgrade": 3,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "使敌人获得阳。\n抽2张牌。",
+    "upgradeDescription": "使敌人获得阳。\n抽3张牌。"
+  },
+  {
+    "id": "Sage047",
+    "name": "凝阴",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 14,
+        "upgrade": 20,
+        "arg": ""
+      },
+      {
+        "kind": "temp",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "阴"
+      }
+    ],
+    "exhaust": false,
+    "description": "获得14点格挡。\n使敌人获得阴。",
+    "upgradeDescription": "获得20点格挡。\n使敌人获得阴。"
+  },
+  {
+    "id": "Sage048",
+    "name": "复核",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 6,
+        "upgrade": 10,
+        "arg": ""
+      },
+      {
+        "kind": "repeat",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      }
+    ],
+    "exhaust": true,
+    "description": "获得6点格挡。\n对敌人重复上次观天1次。",
+    "upgradeDescription": "获得10点格挡。\n对敌人重复上次观天1次。"
+  },
+  {
+    "id": "Sage049",
+    "name": "去芜",
+    "cost": 0,
+    "upgradeCost": 0,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "material": "",
+    "ops": [
+      {
+        "kind": "draw",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      },
+      {
+        "kind": "alter",
+        "base": 1,
+        "upgrade": 1,
+        "arg": "非天气"
+      },
+      {
+        "kind": "alterDraw",
+        "base": 2,
+        "upgrade": 3,
+        "arg": ""
+      }
+    ],
+    "exhaust": true,
+    "description": "抽1张牌。\n改天：消耗1张非天气牌。若如此，抽2张牌。",
+    "upgradeDescription": "抽1张牌。\n改天：消耗1张非天气牌。若如此，抽3张牌。"
+  },
+  {
+    "id": "Sage050",
+    "name": "回转风向",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "material": "",
+    "ops": [
+      {
+        "kind": "flip",
+        "base": 0,
+        "upgrade": 0,
+        "arg": ""
+      },
+      {
+        "kind": "block",
+        "base": 7,
+        "upgrade": 11,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "翻转敌人的阴阳。若没有阴阳，施加阴。\n获得7点格挡。",
+    "upgradeDescription": "翻转敌人的阴阳。若没有阴阳，施加阴。\n获得11点格挡。"
+  },
+  {
+    "id": "Sage051",
+    "name": "暴雨预案",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 15,
+        "upgrade": 21,
+        "arg": ""
+      },
+      {
+        "kind": "nextObserveBlock",
+        "base": 5,
+        "upgrade": 9,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "获得15点格挡。\n下次观天额外获得5点格挡。",
+    "upgradeDescription": "获得21点格挡。\n下次观天额外获得9点格挡。"
+  },
+  {
+    "id": "Sage052",
+    "name": "阴仪",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Power",
+    "rarity": "Uncommon",
+    "material": "",
+    "ops": [
+      {
+        "kind": "buff",
+        "base": 4,
+        "upgrade": 7,
+        "arg": "ColdGuard"
+      }
+    ],
+    "exhaust": false,
+    "description": "每次阴观天，获得 4 点格挡。",
+    "upgradeDescription": "每次阴观天，获得 7 点格挡。"
+  },
+  {
+    "id": "Sage053",
+    "name": "阳仪",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Power",
+    "rarity": "Uncommon",
+    "material": "",
+    "ops": [
+      {
+        "kind": "buff",
+        "base": 4,
+        "upgrade": 7,
+        "arg": "WarmGuard"
+      }
+    ],
+    "exhaust": false,
+    "description": "每次阳观天，获得 4 点格挡。",
+    "upgradeDescription": "每次阳观天，获得 7 点格挡。"
+  },
+  {
+    "id": "Sage054",
+    "name": "观测笔记",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Power",
+    "rarity": "Uncommon",
+    "material": "",
+    "ops": [
+      {
+        "kind": "buff",
+        "base": 2,
+        "upgrade": 4,
+        "arg": "ObserveGuard"
+      }
+    ],
+    "exhaust": false,
+    "description": "每次观天，获得 2 点格挡。",
+    "upgradeDescription": "每次观天，获得 4 点格挡。"
+  },
+  {
+    "id": "Sage055",
+    "name": "阳焰",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Power",
+    "rarity": "Uncommon",
+    "material": "",
+    "ops": [
+      {
+        "kind": "buff",
+        "base": 4,
+        "upgrade": 7,
+        "arg": "WarmBurst"
+      }
+    ],
+    "exhaust": false,
+    "description": "每次阳观天，对该敌人额外造成 4 点伤害。",
+    "upgradeDescription": "每次阳观天，对该敌人额外造成 7 点伤害。"
+  },
+  {
+    "id": "Sage056",
+    "name": "沉降",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 6,
+        "upgrade": 9,
+        "arg": ""
+      },
+      {
+        "kind": "draw",
+        "base": 2,
+        "upgrade": 3,
+        "arg": ""
+      },
+      {
+        "kind": "discard",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "获得6点格挡。\n抽2张牌。\n丢弃1张牌。",
+    "upgradeDescription": "获得9点格挡。\n抽3张牌。\n丢弃1张牌。"
+  },
+  {
+    "id": "Sage057",
+    "name": "碎秽连斩",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Attack",
+    "rarity": "Uncommon",
+    "material": "",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 4,
+        "upgrade": 5,
+        "arg": ""
+      },
+      {
+        "kind": "hits",
+        "base": 2,
+        "upgrade": 2,
+        "arg": ""
+      },
+      {
+        "kind": "alter",
+        "base": 1,
+        "upgrade": 1,
+        "arg": "非天气"
+      },
+      {
+        "kind": "alterAttack",
+        "base": 3,
+        "upgrade": 5,
+        "arg": "2"
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成4点伤害，共2次。\n改天：消耗1张非天气牌。若如此，再造成3点伤害，共2次。",
+    "upgradeDescription": "对敌人造成5点伤害，共2次。\n改天：消耗1张非天气牌。若如此，再造成5点伤害，共2次。"
+  },
+  {
+    "id": "Sage058",
+    "name": "急流",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Attack",
+    "rarity": "Uncommon",
+    "material": "水",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 5,
+        "upgrade": 6,
+        "arg": ""
+      },
+      {
+        "kind": "hits",
+        "base": 3,
+        "upgrade": 3,
+        "arg": ""
+      },
+      {
+        "kind": "weak",
+        "base": 1,
+        "upgrade": 2,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成5点伤害，共3次。\n给予敌人1层虚弱。\n给予敌人【水】。",
+    "upgradeDescription": "对敌人造成6点伤害，共3次。\n给予敌人2层虚弱。\n给予敌人【水】。"
+  },
+  {
+    "id": "Sage059",
+    "name": "砂轮",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Attack",
+    "rarity": "Uncommon",
+    "material": "尘",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 4,
+        "upgrade": 5,
+        "arg": ""
+      },
+      {
+        "kind": "hits",
+        "base": 4,
+        "upgrade": 4,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成4点伤害，共4次。\n给予敌人【尘】。",
+    "upgradeDescription": "对敌人造成5点伤害，共4次。\n给予敌人【尘】。"
+  },
+  {
+    "id": "Sage060",
+    "name": "烈风",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Attack",
+    "rarity": "Uncommon",
+    "material": "风",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 18,
+        "upgrade": 25,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成18点伤害。\n给予敌人【风】。",
+    "upgradeDescription": "对敌人造成25点伤害。\n给予敌人【风】。"
+  },
+  {
+    "id": "Sage061",
+    "name": "凝露护甲",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "material": "水",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 13,
+        "upgrade": 18,
+        "arg": ""
+      },
+      {
+        "kind": "weak",
+        "base": 1,
+        "upgrade": 2,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "获得13点格挡。\n给予敌人1层虚弱。\n给予敌人【水】。",
+    "upgradeDescription": "获得18点格挡。\n给予敌人2层虚弱。\n给予敌人【水】。"
+  },
+  {
+    "id": "Sage062",
+    "name": "土墙",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "material": "尘",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 18,
+        "upgrade": 25,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "获得18点格挡。\n给予敌人【尘】。",
+    "upgradeDescription": "获得25点格挡。\n给予敌人【尘】。"
+  },
+  {
+    "id": "Sage063",
+    "name": "环流盾",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "material": "风",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 10,
+        "upgrade": 15,
+        "arg": ""
+      },
+      {
+        "kind": "draw",
+        "base": 2,
+        "upgrade": 2,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "获得10点格挡。\n抽2张牌。\n给予敌人【风】。",
+    "upgradeDescription": "获得15点格挡。\n抽2张牌。\n给予敌人【风】。"
+  },
+  {
+    "id": "Sage064",
+    "name": "焚材观象",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 4,
+        "upgrade": 7,
+        "arg": ""
+      },
+      {
+        "kind": "alter",
+        "base": 1,
+        "upgrade": 1,
+        "arg": "天气"
+      },
+      {
+        "kind": "alterObserve",
+        "base": 1,
+        "upgrade": 1,
+        "arg": "选择"
+      }
+    ],
+    "exhaust": false,
+    "description": "获得4点格挡。\n改天：消耗1张天气牌。若如此，对敌人触发该材料与任选阴阳的观天。",
+    "upgradeDescription": "获得7点格挡。\n改天：消耗1张天气牌。若如此，对敌人触发该材料与任选阴阳的观天。"
+  },
+  {
+    "id": "Sage065",
+    "name": "再看一眼",
+    "cost": 1,
+    "upgradeCost": 0,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "material": "",
+    "ops": [
+      {
+        "kind": "draw",
+        "base": 1,
+        "upgrade": 2,
+        "arg": ""
+      },
+      {
+        "kind": "repeat",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      }
+    ],
+    "exhaust": true,
+    "description": "抽1张牌。\n对敌人重复上次观天1次。",
+    "upgradeDescription": "抽2张牌。\n对敌人重复上次观天1次。"
+  },
+  {
+    "id": "Sage066",
+    "name": "弃妄守真",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 7,
+        "upgrade": 11,
+        "arg": ""
+      },
+      {
+        "kind": "alter",
+        "base": 1,
+        "upgrade": 1,
+        "arg": "非天气"
+      },
+      {
+        "kind": "alterDex",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "获得7点格挡。\n改天：消耗1张非天气牌。若如此，获得1点敏捷。",
+    "upgradeDescription": "获得11点格挡。\n改天：消耗1张非天气牌。若如此，获得1点敏捷。"
+  },
+  {
+    "id": "Sage067",
+    "name": "推移阴阳",
+    "cost": 2,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "material": "",
+    "ops": [
+      {
+        "kind": "tempAll",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "选择"
+      }
+    ],
+    "exhaust": false,
+    "description": "使所有敌人获得阴或阳。",
+    "upgradeDescription": "使所有敌人获得阴或阳。"
+  },
+  {
+    "id": "Sage068",
+    "name": "精密观测",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "material": "",
+    "ops": [
+      {
+        "kind": "nextObserveDamage",
+        "base": 8,
+        "upgrade": 14,
+        "arg": ""
+      },
+      {
+        "kind": "temp",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "选择"
+      }
+    ],
+    "exhaust": false,
+    "description": "下次观天额外造成8点伤害。\n使敌人获得阴或阳。",
+    "upgradeDescription": "下次观天额外造成14点伤害。\n使敌人获得阴或阳。"
+  },
+  {
+    "id": "Sage069",
+    "name": "蓄势待天",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Uncommon",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 6,
+        "upgrade": 9,
+        "arg": ""
+      },
+      {
+        "kind": "nextObserveDamage",
+        "base": 8,
+        "upgrade": 14,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "获得6点格挡。\n下次观天额外造成8点伤害。",
+    "upgradeDescription": "获得9点格挡。\n下次观天额外造成14点伤害。"
+  },
+  {
+    "id": "Sage070",
+    "name": "雨打浮尘",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Attack",
+    "rarity": "Uncommon",
+    "material": "水",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 4,
+        "upgrade": 6,
+        "arg": ""
+      },
+      {
+        "kind": "hits",
+        "base": 3,
+        "upgrade": 3,
+        "arg": ""
+      },
+      {
+        "kind": "temp",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "阴"
+      }
+    ],
+    "exhaust": true,
+    "description": "对敌人造成4点伤害，共3次。\n使敌人获得阴。\n给予敌人【水】。",
+    "upgradeDescription": "对敌人造成6点伤害，共3次。\n使敌人获得阴。\n给予敌人【水】。"
+  },
+  {
+    "id": "Sage071",
+    "name": "云开天明",
+    "cost": 2,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Rare",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 13,
+        "upgrade": 18,
+        "arg": ""
+      },
+      {
+        "kind": "repeat",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      }
+    ],
+    "exhaust": true,
+    "description": "获得13点格挡。\n对敌人重复上次观天1次。",
+    "upgradeDescription": "获得18点格挡。\n对敌人重复上次观天1次。"
+  },
+  {
+    "id": "Sage072",
+    "name": "天象推演",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Rare",
+    "material": "",
+    "ops": [
+      {
+        "kind": "draw",
+        "base": 3,
+        "upgrade": 4,
+        "arg": ""
+      },
+      {
+        "kind": "tempAll",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "选择"
+      }
+    ],
+    "exhaust": true,
+    "description": "抽3张牌。\n使所有敌人获得阴或阳。",
+    "upgradeDescription": "抽4张牌。\n使所有敌人获得阴或阳。"
+  },
+  {
+    "id": "Sage073",
+    "name": "日照沧海",
+    "cost": 3,
+    "upgradeCost": 2,
+    "type": "Skill",
+    "rarity": "Rare",
+    "material": "水",
+    "ops": [
+      {
+        "kind": "all",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      },
+      {
+        "kind": "block",
+        "base": 10,
+        "upgrade": 16,
+        "arg": ""
+      },
+      {
+        "kind": "tempAll",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "阳"
+      }
+    ],
+    "exhaust": true,
+    "description": "获得10点格挡。\n使所有敌人获得阳。\n给予所有敌人【水】。",
+    "upgradeDescription": "获得16点格挡。\n使所有敌人获得阳。\n给予所有敌人【水】。"
+  },
+  {
+    "id": "Sage074",
+    "name": "阴雨连绵",
+    "cost": 3,
+    "upgradeCost": 2,
+    "type": "Skill",
+    "rarity": "Rare",
+    "material": "水",
+    "ops": [
+      {
+        "kind": "all",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      },
+      {
+        "kind": "block",
+        "base": 14,
+        "upgrade": 20,
+        "arg": ""
+      },
+      {
+        "kind": "tempAll",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "阴"
+      }
+    ],
+    "exhaust": true,
+    "description": "获得14点格挡。\n使所有敌人获得阴。\n给予所有敌人【水】。",
+    "upgradeDescription": "获得20点格挡。\n使所有敌人获得阴。\n给予所有敌人【水】。"
+  },
+  {
+    "id": "Sage075",
+    "name": "万里风场",
+    "cost": 3,
+    "upgradeCost": 3,
+    "type": "Attack",
+    "rarity": "Rare",
+    "material": "风",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 4,
+        "upgrade": 6,
+        "arg": ""
+      },
+      {
+        "kind": "hits",
+        "base": 3,
+        "upgrade": 3,
+        "arg": ""
+      },
+      {
+        "kind": "all",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      },
+      {
+        "kind": "tempAll",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "阳"
+      }
+    ],
+    "exhaust": true,
+    "description": "对所有敌人造成4点伤害，共3次。\n使所有敌人获得阳。\n给予所有敌人【风】。",
+    "upgradeDescription": "对所有敌人造成6点伤害，共3次。\n使所有敌人获得阳。\n给予所有敌人【风】。"
+  },
+  {
+    "id": "Sage076",
+    "name": "阴沙归流",
+    "cost": 3,
+    "upgradeCost": 3,
+    "type": "Skill",
+    "rarity": "Rare",
+    "material": "尘",
+    "ops": [
+      {
+        "kind": "all",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      },
+      {
+        "kind": "block",
+        "base": 8,
+        "upgrade": 14,
+        "arg": ""
+      },
+      {
+        "kind": "tempAll",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "阴"
+      }
+    ],
+    "exhaust": true,
+    "description": "获得8点格挡。\n使所有敌人获得阴。\n给予所有敌人【尘】。",
+    "upgradeDescription": "获得14点格挡。\n使所有敌人获得阴。\n给予所有敌人【尘】。"
+  },
+  {
+    "id": "Sage077",
+    "name": "顺天而行",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Power",
+    "rarity": "Rare",
+    "material": "",
+    "ops": [
+      {
+        "kind": "buff",
+        "base": 7,
+        "upgrade": 13,
+        "arg": "FirstObserveGuard"
+      }
+    ],
+    "exhaust": false,
+    "description": "每回合首次观天，获得 7 点格挡。",
+    "upgradeDescription": "每回合首次观天，获得 13 点格挡。"
+  },
+  {
+    "id": "Sage078",
+    "name": "天人感应",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Power",
+    "rarity": "Rare",
+    "material": "",
+    "ops": [
+      {
+        "kind": "buff",
+        "base": 3,
+        "upgrade": 5,
+        "arg": "ObserveGuard"
+      },
+      {
+        "kind": "buff",
+        "base": 5,
+        "upgrade": 9,
+        "arg": "FirstObserveGuard"
+      }
+    ],
+    "exhaust": false,
+    "description": "每次观天，获得 3 点格挡。\n每回合首次观天，获得 5 点格挡。",
+    "upgradeDescription": "每次观天，获得 5 点格挡。\n每回合首次观天，获得 9 点格挡。"
+  },
+  {
+    "id": "Sage079",
+    "name": "通晓天文",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Power",
+    "rarity": "Rare",
+    "material": "",
+    "ops": [
+      {
+        "kind": "buff",
+        "base": 1,
+        "upgrade": 2,
+        "arg": "FirstObserveDraw"
+      },
+      {
+        "kind": "block",
+        "base": 5,
+        "upgrade": 8,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "每回合首次观天，抽 1 张牌。\n获得5点格挡。",
+    "upgradeDescription": "每回合首次观天，抽 2 张牌。\n获得8点格挡。"
+  },
+  {
+    "id": "Sage080",
+    "name": "季风引擎",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Power",
+    "rarity": "Rare",
+    "material": "",
+    "ops": [
+      {
+        "kind": "buff",
+        "base": 1,
+        "upgrade": 2,
+        "arg": "FirstObserveEnergy"
+      },
+      {
+        "kind": "draw",
+        "base": 1,
+        "upgrade": 2,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "每回合首次观天，获得 1 点能量。\n抽1张牌。",
+    "upgradeDescription": "每回合首次观天，获得 2 点能量。\n抽2张牌。"
+  },
+  {
+    "id": "Sage081",
+    "name": "阳极",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Power",
+    "rarity": "Rare",
+    "material": "",
+    "ops": [
+      {
+        "kind": "buff",
+        "base": 6,
+        "upgrade": 11,
+        "arg": "WarmBurst"
+      }
+    ],
+    "exhaust": false,
+    "description": "每次阳观天，对该敌人额外造成 6 点伤害。",
+    "upgradeDescription": "每次阳观天，对该敌人额外造成 11 点伤害。"
+  },
+  {
+    "id": "Sage082",
+    "name": "阴极",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Power",
+    "rarity": "Rare",
+    "material": "",
+    "ops": [
+      {
+        "kind": "buff",
+        "base": 5,
+        "upgrade": 9,
+        "arg": "ColdGuard"
+      },
+      {
+        "kind": "block",
+        "base": 9,
+        "upgrade": 14,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "每次阴观天，获得 5 点格挡。\n获得9点格挡。",
+    "upgradeDescription": "每次阴观天，获得 9 点格挡。\n获得14点格挡。"
+  },
+  {
+    "id": "Sage083",
+    "name": "暴风眼",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Attack",
+    "rarity": "Rare",
+    "material": "",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 4,
+        "upgrade": 5,
+        "arg": ""
+      },
+      {
+        "kind": "hits",
+        "base": 2,
+        "upgrade": 2,
+        "arg": ""
+      },
+      {
+        "kind": "observeHits",
+        "base": 2,
+        "upgrade": 4,
+        "arg": ""
+      },
+      {
+        "kind": "all",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "对所有敌人造成4点伤害，共2次。\n本场每次观天多攻击1次，最多多2次。",
+    "upgradeDescription": "对所有敌人造成5点伤害，共2次。\n本场每次观天多攻击1次，最多多4次。"
+  },
+  {
+    "id": "Sage084",
+    "name": "舍旧立新",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Skill",
+    "rarity": "Rare",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 10,
+        "upgrade": 15,
+        "arg": ""
+      },
+      {
+        "kind": "alter",
+        "base": 1,
+        "upgrade": 1,
+        "arg": "非天气"
+      },
+      {
+        "kind": "alterEnergy",
+        "base": 2,
+        "upgrade": 3,
+        "arg": ""
+      }
+    ],
+    "exhaust": true,
+    "description": "获得10点格挡。\n改天：消耗1张非天气牌。若如此，获得2点能量。",
+    "upgradeDescription": "获得15点格挡。\n改天：消耗1张非天气牌。若如此，获得3点能量。"
+  },
+  {
+    "id": "Sage085",
+    "name": "天时之约",
+    "cost": 2,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Rare",
+    "material": "",
+    "ops": [
+      {
+        "kind": "draw",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      },
+      {
+        "kind": "repeat",
+        "base": 2,
+        "upgrade": 2,
+        "arg": ""
+      }
+    ],
+    "exhaust": true,
+    "description": "抽1张牌。\n对敌人重复上次观天2次。",
+    "upgradeDescription": "抽1张牌。\n对敌人重复上次观天2次。"
+  },
+  {
+    "id": "Sage086",
+    "name": "焚天启象",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Skill",
+    "rarity": "Rare",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 6,
+        "upgrade": 10,
+        "arg": ""
+      },
+      {
+        "kind": "all",
+        "base": 1,
+        "upgrade": 1,
+        "arg": ""
+      },
+      {
+        "kind": "alter",
+        "base": 1,
+        "upgrade": 1,
+        "arg": "天气"
+      },
+      {
+        "kind": "alterObserve",
+        "base": 1,
+        "upgrade": 1,
+        "arg": "选择"
+      }
+    ],
+    "exhaust": true,
+    "description": "获得6点格挡。\n改天：消耗1张天气牌。若如此，对所有敌人触发该材料与任选阴阳的观天。",
+    "upgradeDescription": "获得10点格挡。\n改天：消耗1张天气牌。若如此，对所有敌人触发该材料与任选阴阳的观天。"
+  },
+  {
+    "id": "Sage087",
+    "name": "云端静修",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Skill",
+    "rarity": "Rare",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 12,
+        "upgrade": 18,
+        "arg": ""
+      },
+      {
+        "kind": "draw",
+        "base": 3,
+        "upgrade": 4,
+        "arg": ""
+      }
+    ],
+    "exhaust": true,
+    "description": "获得12点格挡。\n抽3张牌。",
+    "upgradeDescription": "获得18点格挡。\n抽4张牌。"
+  },
+  {
+    "id": "Sage088",
+    "name": "天地共振",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Attack",
+    "rarity": "Rare",
+    "material": "",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 4,
+        "upgrade": 6,
+        "arg": ""
+      },
+      {
+        "kind": "hits",
+        "base": 2,
+        "upgrade": 2,
+        "arg": ""
+      },
+      {
+        "kind": "diversityHits",
+        "base": 6,
+        "upgrade": 6,
+        "arg": ""
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成4点伤害，共2次。\n本场每触发过一种不同的观天，多攻击1次。",
+    "upgradeDescription": "对敌人造成6点伤害，共2次。\n本场每触发过一种不同的观天，多攻击1次。"
+  },
+  {
+    "id": "Sage089",
+    "name": "焚书问天",
+    "cost": 1,
+    "upgradeCost": 1,
+    "type": "Skill",
+    "rarity": "Rare",
+    "material": "",
+    "ops": [
+      {
+        "kind": "block",
+        "base": 4,
+        "upgrade": 7,
+        "arg": ""
+      },
+      {
+        "kind": "alter",
+        "base": 1,
+        "upgrade": 1,
+        "arg": "非天气"
+      },
+      {
+        "kind": "alterRetrieve",
+        "base": 2,
+        "upgrade": 3,
+        "arg": ""
+      }
+    ],
+    "exhaust": true,
+    "description": "获得4点格挡。\n改天：消耗1张非天气牌。若如此，从弃牌堆将最多2张天气牌放入手牌，本回合耗能变为0。",
+    "upgradeDescription": "获得7点格挡。\n改天：消耗1张非天气牌。若如此，从弃牌堆将最多3张天气牌放入手牌，本回合耗能变为0。"
+  },
+  {
+    "id": "Sage090",
+    "name": "破晓",
+    "cost": 2,
+    "upgradeCost": 2,
+    "type": "Attack",
+    "rarity": "Rare",
+    "material": "",
+    "ops": [
+      {
+        "kind": "damage",
+        "base": 5,
+        "upgrade": 6,
+        "arg": ""
+      },
+      {
+        "kind": "hits",
+        "base": 2,
+        "upgrade": 2,
+        "arg": ""
+      },
+      {
+        "kind": "observeHits",
+        "base": 2,
+        "upgrade": 4,
+        "arg": ""
+      },
+      {
+        "kind": "temp",
+        "base": 0,
+        "upgrade": 0,
+        "arg": "阳"
+      }
+    ],
+    "exhaust": false,
+    "description": "对敌人造成5点伤害，共2次。\n本场每次观天多攻击1次，最多多2次。\n使敌人获得阳。",
+    "upgradeDescription": "对敌人造成6点伤害，共2次。\n本场每次观天多攻击1次，最多多4次。\n使敌人获得阳。"
+  }
+]
